@@ -1,0 +1,293 @@
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+h1,h2,p{
+    text-align: center;
+    margin: 0;
+}
+p{
+    font-size: 25px;
+    padding: 40px;
+}
+h1,h2{
+    font-size: 60px;
+}
+#buttonsDiv{
+    text-align: center;
+    margin: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    width: 98%;
+}
+#buttonsDiv button{
+    width: 50px;
+    height: fit-content;
+    padding: 10px 0;
+    background-color: #f8f7f867;
+}
+#carouselWrapper{
+    margin: 0;
+    height: fit-content;
+}
+#navbar{
+    background-color: #fee7ea4b;
+    height: 60px;
+    margin: 0;
+}
+#navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: end;
+}
+#navbar a{
+    text-decoration: none;
+    color: #36171b;
+    margin: 0px 22px;
+}
+#navbar li{
+    position: relative;
+}
+#navbar li::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -20%;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 0;
+    background-color: #644e592d;
+    transition: width 300ms ease;
+}
+#navbar li:hover::after{
+    width: 75%;
+}
+#carouselWrapper div , #buttonsDiv{
+    height: 80vh;
+}
+#welcomeDiv , #EcoFreindlyDiv{
+    display: flex;
+    flex-direction: row;
+}
+
+#welcomeDiv{
+    background-image: url('/AboutPage/images/download\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcomeDiv ,#FlowersDiv ,#DelivaryDiv {
+    background-color: #f8f7f8;
+}
+#PerfectlyChosen ,#EcoFreindlyDiv{
+    background-color: #e58db1;
+}
+#RedirectingDiv{
+    background-color: #a72769;
+}
+
+
+
+/*Welcome Section*/
+#welcomeDiv h1 {
+    color: #a72769;
+    width: 80%;
+    font-size: 80px;
+}
+#welcomeDiv p {
+    color: #322a2bad;
+    width: 40%;
+}
+#welcomeDiv div , #EcoFreindlyDiv div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Flowers are perfectly chosen Section*/
+#PerfectlyChosen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#PerfectlyChosen img{
+    height: 500px;
+}
+#PerfectlyChosen p{
+    width: 40%;
+    color: #f8f7f8;
+}
+#PerfectlyChosen p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Eco-Friendly Section*/
+#EcoFreindlyDiv div{
+    width: 60%;
+}
+#EcoFreindlyDiv h2{
+    width: 60%;
+}
+#EcoFreindlyDiv h2 ,#EcoFreindlyDiv p{
+    color: #f8f7f8;
+}
+#EcoFreindlyDiv p{
+    width: 60%;
+    text-align: justify;
+}
+#EcoFreindlyDiv img{
+    height: 70%;
+}
+
+
+/*Flowers viarity Section*/
+#FlowersDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#FlowersDiv div{
+    display: flex;
+    height: 380px;
+}
+#FlowersDiv img{
+    width: 25%;
+    height: fit-content;
+}
+#FlowersDiv h2{
+    margin-bottom: 20px;
+    color: #a72769;
+}
+ #FlowersDiv p{
+    color: #a7276988;
+}
+
+/*Delivary Section*/
+#DelivaryDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#DelivaryDiv div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#DelivaryDiv h2{
+    width: 60%;
+}
+#DelivaryDiv p{
+    width: 60%;
+    text-align: justify;
+}
+#DelivaryDiv img{
+    height: 90%;
+}
+
+/*to Home Page Section*/
+#RedirectingDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+}
+#RedirectingDiv h3{
+    font-size: 33px;
+    width: 50%;
+    color: #f8f7f8;
+    text-align: center;
+}
+#RedirectingDiv p{
+    font-size: 15px;
+    color: #ffe9f55c;
+    margin-bottom: 0;
+}
+#RedirectingDiv a{
+    text-decoration: none;
+}
+
+
+
+button{
+    display: block;
+    justify-self: center;
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+    background-color: #ffffff78;
+    color: #f8f7f8;
+    transition-property: opacity color font-weight box-shadow;
+    transition-duration: 400ms;
+    transition-timing-function: ease;
+    font-size: 16px;
+}
+button:hover{
+    opacity: 0.8;
+    color: #36171b;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main{
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+}
+main h2{
+    width: 60%;
+    color: #a72769;
+}
+#FlowerTipsDiv{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0;
+}
+#FlowerTipsDiv img{
+    width: 200px;
+}
+.FlowerCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e58db1;
+    width: 70%;
+}
+.FlowerCard div{
+    margin: 20px;
+    background-color: #a727696d;
+}
+.FlowerCard h3{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+.FlowerCard p{
+    color: white;
+    text-align: justify;
+}

@@ -1,0 +1,140 @@
+
+body{
+    background-color: #f8f7f2;
+    margin: 0;
+    background-image: url('/welcomePage/images/download\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#wholePageContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f7f2;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+    background-color: #26173645;
+}
+#MainContainer{
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    width: 70%;
+    max-width: 1000px;
+    height: 530px;
+}
+#navbar{
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(40px);
+    width: 70%;
+    max-width: 1000px;
+    height: 60px;
+    border-radius: 20px 20px 0 0;
+    margin: 0;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+#logoUl, #NormUL {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+#NormUL{
+    justify-content: end;
+}
+#logoUl li{
+    margin: 0 20px;
+    color: #ffffff;
+}
+#logoUl li , #NormUL li{
+    height: 100%;
+}
+#navbar a{
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0px 22px;
+}
+#NormUL li{
+    position: relative;
+}
+#NormUL li::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -20%;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 0;
+    background-color: #644e592d;
+    transition: width 300ms ease;
+}
+#NormUL li:hover::after{
+    width: 75%;
+}
+#textDiv{
+    margin: 0;
+    padding: 0;
+}
+h1 , p{
+    margin: 1px;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 3px;
+    line-height: 55px;
+}
+p{
+    word-spacing: 5px;
+    margin: 30px 0 30px 0;
+}
+#Flowerimage{
+    width: 480px;
+    position: relative;
+    right: -50px;
+}
+#lSideDiv{
+    display: flex;
+    flex-direction: row;
+}
+#textDiv{
+    width: 60%;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+button {
+    display: block;
+    width: 190px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: #36171b;
+    font-weight: normal;
+    transition-property: opacity, color, transform;
+    transition-duration: 200ms;
+    transition-timing-function: ease;
+}
+
+button:hover {
+    opacity: 0.8;
+    color: #36171b;
+    transform: scale(1.03);
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}

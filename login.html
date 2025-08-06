@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+    <link rel="stylesheet" href="/LoginPage/css/login.css">
+</head>
+<body>
+    <div id="wholePageContainer">
+        <nav id="navbar">
+            <ul>
+                <li class="li1"><a href="/homePage/index.html" target="_blank">Home</a></li>
+                <li class="li2"><a href="/SignUpPage/Signup.html">SignUp</a></li>
+                <li class="li3"><a href="/AboutPage/about.html" target="_blank">uboutUs</a></li>
+                <li class="li4"><a href="/homePage/index.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="bodyDiv">
+            
+            <div id="rsideBodyDiv">
+                <div id="PDiv">
+                    <p class="rsideP" onclick="showLogin()">LogIn</p>
+                </div>
+                <div id="logInDiv">
+                    <input type="email" placeholder="Enter your Email" class="inputboxs">
+                    <input type="password" placeholder="Enter your Password" class="inputboxs">
+                    <div class="aElement">
+                     <a href="#">Forgot password?</a>   
+                    </div>
+                    
+                    <button class="rsideButton">Submit</button>
+                    <div class="aElement">
+                     <p>Not a member?<a href="/SignUpPage/Signup.html" target="_blank">signup now</a></p>    
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+            
+        </div>
+
+        <script src="login.js">
+        </script>
+
+    </div>
+</body>
+</html>

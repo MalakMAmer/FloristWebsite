@@ -1,0 +1,307 @@
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #2f091d;
+}
+#navbar{
+    background-color: #e58db272;
+    backdrop-filter: blur(40px);
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+#logoUl, #NormUL {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+#NormUL{
+    justify-content: end;
+}
+#logoUl li{
+    margin: 0 20px;
+    color: #000;
+}
+#logoUl li , #NormUL li{
+    height: 100%;
+}
+#navbar a{
+    text-decoration: none;
+    color: #000;
+    margin: 0px 22px;
+}
+#NormUL li{
+    position: relative;
+}
+#NormUL li::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -20%;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 0;
+    background-color: #644e592d;
+    transition: width 300ms ease;
+}
+#NormUL li:hover::after{
+    width: 75%;
+}
+
+
+
+#innerWelcomeDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #e58db233;
+}
+#innerWelcomeDiv div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#innerWelcomeDiv p , h1 ,h3{
+    text-align: center;
+    margin: 15px;
+}
+#innerWelcomeDiv h1{
+    font-size: 50px;
+}
+#innerWelcomeDiv h3{
+    font-size: 25px;
+}
+
+#outerservicesDiv{
+    padding: 60px 0;
+}
+#outerservicesDiv h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+
+#AboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background-color: #e58db1;
+}
+#AboutUs h2 , #AboutUs p{
+    text-align: center;
+    margin: 0;
+    color: #e4e3e8;
+}
+#AboutUs h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+#AboutUs p{
+    width: 60%;
+}
+
+#outerservicesDiv{
+    background-color: #e4e3e8;
+}
+#servicesDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+    
+#servicesDiv div{
+    width: 25%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #36171b;
+    margin: 0 10px;
+}
+#servicesDiv p{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#wedding{
+    background-image: url('/homePage/images/Wedding.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#gift{
+    background-image: url('/homePage/images/gift.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#party{
+    background-image: url('/homePage/images/party.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#valentine{
+    background-image: url('/homePage/images/valentine.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+#outerProductsDiv{
+    padding: 80px 50px;
+}
+#outerProductsDiv h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 0 0 20 0;
+}
+#ProductsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#ProductsDiv div{
+    width: 20%;
+    background-color: #e4e3e8b9;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#ProductsDiv img{
+    width: 58%;
+}
+#ProductsDiv h4{
+   margin: 15px 0;
+   font-size: 20px;
+   color: #a72769;
+}
+#ProductsDiv p{
+    margin: 4px 0;
+    font-size: 15px;
+    color: #7119479b;
+}
+
+ 
+#VideoDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    background-color: #e58db1;
+}
+#VideoDiv p{
+    text-align: center;
+    width: 70%;
+    font-size: 18px;
+    color: white;
+}
+
+
+#subscribeDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    background: #a72769;
+}
+#subscribeDiv h2{
+    font-size: 35px;
+    color: #e4e3e8;
+}
+button:hover{
+    opacity: 0.8;
+    color: #36171b;
+    font-weight: bold;
+    cursor: pointer;
+}
+button{
+    display: block;
+    justify-self: center;
+    margin: 15px;
+    width: 300px;
+    border-radius: 20px;
+    height: 45px;
+    border: none;
+    background-color: white;
+    color: #36171b;
+    transition-property: opacity color font-weight box-shadow;
+    transition-duration: 400ms;
+    transition-timing-function: ease;
+}
+
+
+#footerInnerContianer{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #e4e3e8;
+    height: 20%;
+}
+#footerInnerContianer div{
+    display: flex;
+    flex-wrap: wrap;
+}
+#footerInnerContianer img{
+    margin: 5px 10px;
+}
+.lastInnerElement{
+    position: relative;
+    width: 120px;
+    text-align: center;
+}
+.lastInnerElement::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -20%;
+    transform: translateX(-50%);
+    height: 3px;
+    width: 0;
+    background-color: #644e592d;
+    transition: width 300ms ease;
+}
+.lastInnerElement:hover::after{
+    width: 80%;
+}
+.lastInnerElement:hover{
+    cursor: pointer;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    transition: transform 600ms ease;
+    border-radius: 5px;
+}
+.icon:hover{
+    transform: rotate(10deg);
+    cursor: pointer;
+}
