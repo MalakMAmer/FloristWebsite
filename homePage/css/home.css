@@ -144,25 +144,25 @@ a{
 }
 
 #wedding{
-    background-image: url('/homePage/images/Wedding.jpg');
+    background-image: url('homePage/images/Wedding.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #gift{
-    background-image: url('/homePage/images/gift.jpg');
+    background-image: url('homePage/images/gift.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #party{
-    background-image: url('/homePage/images/party.jpg');
+    background-image: url('homePage/images/party.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #valentine{
-    background-image: url('/homePage/images/valentine.jpg');
+    background-image: url('homePage/images/valentine.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
