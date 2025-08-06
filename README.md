@@ -38,11 +38,20 @@ Styled using HTML5 and CSS3
 </pre>
 
 ## Technologies Used
-HTML5
-CSS3
-js
-No frameworks or libraries (pure front-end)
-Not responsivce
+<pre>
+  HTML5
+  CSS3
+  js
+  No frameworks or libraries (pure front-end)
+  Not responsivce
+</pre>
+
+## Pages Links
+ > [welcome page](https://malakmamer.github.io/FloristWebsite/welcome.html)
+ > [home page](https://malakmamer.github.io/FloristWebsite/)
+ > [About page](https://malakmamer.github.io/FloristWebsite/about.html)
+ > [Login page](https://malakmamer.github.io/FloristWebsite/login.html)
+ > [Signup page](https://malakmamer.github.io/FloristWebsite/Signup.html)
 
 🎓 Purpose
 Built for a university assignment to demonstrate front-end web design skills and creative styling.
